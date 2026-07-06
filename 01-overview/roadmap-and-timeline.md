@@ -1,6 +1,6 @@
 # 🗺️ Roadmap Full-Stack Intensif 30 Hari & Pembagian Fase
 
-Selamat datang di roadmap pembelajaran intensif Full-Stack Web Development selama 30 hari! Kurikulum ini dirancang khusus untuk membawa Anda dari pemahaman dasar DOM Vanilla JavaScript hingga membangun aplikasi berarsitektur modern menggunakan **Next.js App Router**, **PostgreSQL**, dan **Drizzle ORM**.
+Selamat datang di roadmap pembelajaran intensif Full-Stack Web Development selama 30 hari! Kurikulum ini dirancang khusus untuk membawa Anda dari pemahaman dasar DOM Vanilla JavaScript hingga membangun aplikasi berarsitektur modern menggunakan **Next.js App Router**, **PostgreSQL**, **Drizzle ORM**, dan menguasai **Deployment Production (Vercel, VPS Nginx, & Docker)**.
 
 ---
 
@@ -9,7 +9,7 @@ Roadmap ini tidak sekadar menyisipkan database pada akhir kelas, melainkan memba
 1. **Vanilla JavaScript DOM & Tailwind CSS** (Dasar interaksi browser dan manipulasi DOM).
 2. **React & Tailwind CSS** (Pendekatan berbasis komponen, state management, dan arsitektur UI).
 3. **Next.js App Router** (Full-stack framework, Server/Client components, dan routing).
-4. **Next.js + PostgreSQL + Drizzle ORM** (Database relasional nyata, transaksi persisten, dan deployment).
+4. **Next.js + PostgreSQL + Drizzle ORM** (Database relasional nyata, transaksi persisten, dan deployment cloud/container).
 
 Saya menetapkan **Mini POS (Point of Sales)** sebagai studi kasus utama karena mencakup domain bisnis kritis: produk, stok, keranjang, transaksi, relasi data, validasi, laporan, dan authorization. Studi kasus pendukung seperti *expense tracker*, *task management*, *inventory*, dan *booking* tetap digunakan sebagai latihan harian, tetapi tidak menjadi repository besar terpisah agar fokus belajar tetap tajam.
 
@@ -26,7 +26,7 @@ Alokasi waktu minimum yang disarankan adalah **3–4 jam setiap hari**. Dengan k
 | **Fase 3** | **Hari 14–18** | Next.js App Router | Migrasi ke RSC, Route Handler, & Server Actions |
 | **Fase 4** | **Hari 19–24** | PostgreSQL, SQL, dan Drizzle ORM | Desain Schema Relasional, Migration, dan Seed Data |
 | **Fase 5** | **Hari 25–28** | Backend, Authentication, & Integrasi | CRUD Database, Database Transaction Atomic, & Role Auth |
-| **Fase 6** | **Hari 29–30** | Testing, Security Review, & Deployment | Verifikasi Akhir, Security Audit, & Deploy Production |
+| **Fase 6** | **Hari 29–30** | Testing, Security Review, & Deployment Mastery | Verifikasi Akhir & Deploy ke **Vercel**, **Manual VPS (Nginx)**, & **Docker Container** |
 
 ---
 

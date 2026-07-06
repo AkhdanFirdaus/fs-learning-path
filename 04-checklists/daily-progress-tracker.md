@@ -62,8 +62,11 @@ Fokus: Menyatukan UI, Server Actions, dan PostgreSQL. Menerapkan transaksi datab
 
 ---
 
-## 🏆 Fase 6 — Penyelesaian, Security Review & Deployment
-Fokus: Pengujian sistem, penambalan celah keamanan, optimasi performa, dokumentasi README, dan live deployment ke production.
+## 🏆 Fase 6 — Penyelesaian, Security Review & Deployment Mastery
+Fokus: Pengujian sistem, penambalan celah keamanan, optimasi performa, dokumentasi README, dan live deployment melalui 3 metode standar industri.
 - [ ] **Hari 29:** [Testing dan Security Review (Validasi Berlapis & Error Handling)](../03-curriculum/phase-6-finalization/day-29-testing-security.md)
-- [ ] **Hari 30:** [Refactoring Final, Dokumentasi README, dan Deployment Cloud](../03-curriculum/phase-6-finalization/day-30-refactoring-deploy.md)
+- [ ] **Hari 30:** [Refactoring Final, Dokumentasi README, dan Deployment Mastery](../03-curriculum/phase-6-finalization/day-30-refactoring-deploy.md)
+  - [ ] **Langkah 1:** [Deploy ke Vercel (PaaS / Serverless)](../03-curriculum/phase-6-finalization/deploy-step-1-vercel.md)
+  - [ ] **Langkah 2:** [Deploy Manual ke VPS (Ubuntu, Nginx, PM2 & SSL)](../03-curriculum/phase-6-finalization/deploy-step-2-manual-vps.md)
+  - [ ] **Langkah 3:** [Deploy ke VPS dengan Docker (Masterclass Containerization)](../03-curriculum/phase-6-finalization/deploy-step-3-docker-vps.md)
 👉 *[Lihat Checklist Granular Fase 6](phase-6-checklist.md)*

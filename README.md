@@ -7,6 +7,7 @@ Selama 30 hari ke depan, Anda tidak sekadar belajar teori terputus-putus, melain
 2. **React 18+ & Component Architecture**
 3. **Next.js App Router (Server & Client Components)**
 4. **PostgreSQL Database, SQL & Drizzle ORM**
+*Plus:* **Masterclass Deployment Production (Vercel PaaS, Manual VPS + Nginx, dan Docker Containerization)**.
 
 ---
 
@@ -18,9 +19,9 @@ Workspace ini dibagi menjadi 5 direktori utama agar pembelajaran teratur dan mud
 | :--- | :--- | :--- |
 | 📘 **`01-overview/`** | Dokumen fundamental, roadmap 30 hari, standar kelulusan, dan rincian stack teknologi. | [Roadmap & Timeline](01-overview/roadmap-and-timeline.md)<br>[Standar Kelulusan](01-overview/target-and-graduation-standards.md)<br>[Detail Stack](01-overview/tech-stack-details.md) |
 | 🛒 **`02-study-case-minipos/`** | Spesifikasi lengkap studi kasus Mini POS: daftar fitur, aturan bisnis (*business rules*), desain skema database, dan arsitektur folder. | [Overview & Fitur](02-study-case-minipos/01-overview-and-features.md)<br>[Aturan Bisnis](02-study-case-minipos/02-business-rules.md)<br>[Schema Database](02-study-case-minipos/03-database-schema.md)<br>[Arsitektur Proyek](02-study-case-minipos/04-project-architecture.md) |
-| 📅 **`03-curriculum/`** | **Materi Inti & Tugas Harian (30 Hari)** yang dipisahkan ke dalam 6 fase. Setiap hari berisi teori, panduan fitur, dan tautan navigasi. | *Lihat Daftar Silabus Lengkap di Bawah ↓* |
+| 📅 **`03-curriculum/`** | **Materi Inti & Tugas Harian (30 Hari)** yang dipisahkan ke dalam 6 fase. Termasuk 3 langkah deployment mendalam di Fase 6. | *Lihat Daftar Silabus Lengkap di Bawah ↓* |
 | 📋 **`04-checklists/`** | Dashboard interaktif (*checkboxes*) untuk memantau progres belajar Anda dari Hari 1 hingga Hari 30. | [📊 Dashboard Progres](04-checklists/daily-progress-tracker.md)<br>[Checklist Fase 1](04-checklists/phase-1-checklist.md) – [Fase 6](04-checklists/phase-6-checklist.md) |
-| 📚 **`references/`** | Kumpulan tautan dokumentasi resmi (Next.js, Drizzle, PostgreSQL, Tailwind, React, MDN) serta materi pendukung. | [🔗 Referensi Eksternal](references/external-links-and-docs.md) |
+| 📚 **`references/`** | Kumpulan tautan dokumentasi resmi (Next.js, Drizzle, PostgreSQL, Tailwind, React, Docker, Nginx, MDN) serta materi pendukung. | [🔗 Referensi Eksternal](references/external-links-and-docs.md) |
 
 ---
 
@@ -66,9 +67,12 @@ Klik tautan pada masing-masing hari untuk membaca panduan materi, latihan, dan s
 * [Hari 27 — Authentication (Login/Logout & Session Security)](03-curriculum/phase-5-backend-integration/day-27-authentication.md)
 * [Hari 28 — Authorization dan Audit Trail (Role Admin vs Kasir)](03-curriculum/phase-5-backend-integration/day-28-authorization-audit.md)
 
-### 🏆 Fase 6 — Penyelesaian, Security Review, dan Deployment (Hari 29–30)
+### 🏆 Fase 6 — Penyelesaian, Security Review, dan Deployment Mastery (Hari 29–30)
 * [Hari 29 — Testing dan Security Review](03-curriculum/phase-6-finalization/day-29-testing-security.md)
-* [Hari 30 — Refactoring Final, Dokumentasi README, dan Deployment Cloud](03-curriculum/phase-6-finalization/day-30-refactoring-deploy.md)
+* [Hari 30 — Refactoring Final, Dokumentasi README, dan Deployment Mastery](03-curriculum/phase-6-finalization/day-30-refactoring-deploy.md)
+  * 🌟 **[Langkah 1: Deploy ke Vercel (PaaS / Serverless)](03-curriculum/phase-6-finalization/deploy-step-1-vercel.md)**
+  * 🖥️ **[Langkah 2: Deploy Manual ke VPS (Ubuntu, Nginx, PM2 & SSL)](03-curriculum/phase-6-finalization/deploy-step-2-manual-vps.md)**
+  * 🐳 **[Langkah 3: Deploy ke VPS dengan Docker (Masterclass Containerization)](03-curriculum/phase-6-finalization/deploy-step-3-docker-vps.md)**
 
 ---
 
@@ -77,6 +81,7 @@ Klik tautan pada masing-masing hari untuk membaca panduan materi, latihan, dan s
 1. **Gunakan sebagai Panduan & Tracker:** Bukalah file materi harian di folder `03-curriculum/` untuk membaca teori dan tugas setiap harinya. Setelah selesai, buka [📊 Dashboard Progres](04-checklists/daily-progress-tracker.md) dan centang kotak `- [x]` hari tersebut!
 2. **Jangan Lompat Fase:** Setiap fase dibangun di atas fundamen fase sebelumnya. Jika Anda kesulitan di Fase 3 (Next.js), periksa kembali konsep komponen & state di Fase 2 (React).
 3. **Perhatikan Aturan Bisnis Mutlak:** Baca secara saksama dokumen [Aturan Bisnis Mini POS](02-study-case-minipos/02-business-rules.md). Fitur kalkulasi kasir dan pemotongan stok wajib mengikuti standar transaksi atomic yang telah dijelaskan.
-4. **Manfaatkan Folder Referensi:** Jika sewaktu-waktu Anda lupa sintaks Tailwind, Drizzle ORM, atau API Next.js, kunjungi folder [📚 References](references/external-links-and-docs.md) untuk menuju dokumentasi resmi.
+4. **Pilih Metode Deployment Sesuai Kebutuhan:** Di Hari ke-30, cobalah minimal satu atau bahkan ketiga metode deployment yang disediakan untuk melengkapi skill DevOps Anda!
+5. **Manfaatkan Folder Referensi:** Kunjungi folder [📚 References](references/external-links-and-docs.md) untuk menuju dokumentasi resmi dan materi panduan tambahan.
 
 Selamat belajar dan berkreasi! Konsistensi 3–4 jam setiap hari selama 30 hari ke depan akan mengubah Anda menjadi developer full-stack yang matang dan siap kerja. 🚀
