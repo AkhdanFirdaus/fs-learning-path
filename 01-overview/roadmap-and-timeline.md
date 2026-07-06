@@ -1,6 +1,6 @@
 # 🗺️ Roadmap Full-Stack Intensif 30 Hari & Bonus Mastery
 
-Selamat datang di roadmap pembelajaran intensif Full-Stack Web Development selama 30 hari! Kurikulum ini dirancang khusus untuk membawa Anda dari pemahaman dasar DOM Vanilla JavaScript hingga membangun aplikasi berarsitektur modern menggunakan **Next.js App Router**, **PostgreSQL**, dan **Drizzle ORM**, dilengkapi dengan **Fase Tambahan (Hari 31–33)** untuk menguasai **Deployment Production (Vercel, VPS Nginx, & Docker)**.
+Selamat datang di roadmap pembelajaran intensif Full-Stack Web Development selama 30 hari! Kurikulum ini dirancang khusus untuk membawa Anda dari pemahaman dasar DOM Vanilla JavaScript hingga membangun aplikasi berarsitektur modern menggunakan **Next.js App Router**, **PostgreSQL**, dan **Drizzle ORM**, dilengkapi dengan **Fase Tambahan (Hari 31–36)** untuk menguasai **Deployment Production (Vercel, VPS Nginx, & Docker)** serta **GraphQL & Real-time API Mastery**.
 
 ---
 
@@ -15,9 +15,9 @@ Saya menetapkan **Mini POS (Point of Sales)** sebagai studi kasus utama karena m
 
 ---
 
-## 📅 Pembagian 6 Fase Pembelajaran + 1 Fase Bonus
+## 📅 Pembagian 6 Fase Pembelajaran + 2 Fase Bonus
 
-Alokasi waktu minimum yang disarankan adalah **3–4 jam setiap hari**. Dengan konsistensi tersebut, Anda akan menyelesaikan kurikulum utama dalam 30 hari tepat.
+Alokasi waktu minimum yang disarankan adalah **3–4 jam setiap hari**. Dengan konsistensi tersebut, Anda akan menyelesaikan kurikulum utama dalam 30 hari tepat, dan bisa melanjutkan ke modul tambahan kapan pun Anda siap.
 
 | Fase | Hari | Fokus Utama | Output / Target Capaian |
 | :--- | :---: | :--- | :--- |
@@ -27,7 +27,8 @@ Alokasi waktu minimum yang disarankan adalah **3–4 jam setiap hari**. Dengan k
 | **Fase 4** | **Hari 19–24** | PostgreSQL, SQL, dan Drizzle ORM | Desain Schema Relasional, Migration, dan Seed Data |
 | **Fase 5** | **Hari 25–28** | Backend, Authentication, & Integrasi | CRUD Database, Database Transaction Atomic, & Role Auth |
 | **Fase 6** | **Hari 29–30** | Testing, Security Review, & Refactoring | Verifikasi Akhir & Dokumentasi `README.md` Proyek |
-| **Fase Bonus** | **Hari 31–33** | Production Deployment Mastery (*Additional*) | Deploy ke **Vercel PaaS**, **Manual VPS (Nginx)**, & **Docker Container** |
+| **Fase Bonus 1** | **Hari 31–33** | Production Deployment Mastery (*Additional*) | Deploy ke **Vercel PaaS**, **Manual VPS (Nginx)**, & **Docker Container** |
+| **Fase Bonus 2** | **Hari 34–36** | GraphQL & Real-time API Mastery (*Additional*) | Schema, Resolver, Mutation Atomic Checkout, & Subscriptions |
 
 ---
 

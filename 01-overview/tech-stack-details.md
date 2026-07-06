@@ -50,9 +50,9 @@ Kurikulum ini menggunakan kombinasi teknologi modern yang dipilih secara ketat k
 
 ---
 
-## 5. Deployment & DevOps Mastery Stack
+## 5. Deployment & DevOps Mastery Stack (Fase Bonus 1)
 
-Sebagai pelengkap kompetensi Full-Stack, kurikulum ini menyertakan 3 metode deployment standar industri di Fase 6:
+Sebagai pelengkap kompetensi Full-Stack, kurikulum ini menyertakan 3 metode deployment standar industri di Fase Tambahan (Hari 31–33):
 
 ### Vercel (Platform-as-a-Service / Serverless)
 * **Mengapa Vercel?** Platform kreator Next.js dengan arsitektur serverless edge. Memberikan integrasi CI/CD otomatis (*push to deploy*) dan optimasi caching tingkat dunia tanpa konfigurasi server yang rumit.
@@ -64,3 +64,16 @@ Sebagai pelengkap kompetensi Full-Stack, kurikulum ini menyertakan 3 metode depl
 * **Mengapa Docker?** Menghilangkan kutukan *"It works on my machine"* dengan membungkus aplikasi, runtime Node.js, dan library sistem ke dalam container yang terisolasi dan identik di semua lingkungan.
 * **Multi-Stage Build:** Optimasi canggih pada `Dockerfile` untuk memangkas ukuran image produksi Next.js dari >1.5 GB menjadi hanya ~100 MB menggunakan mode `output: 'standalone'`.
 * **Docker Compose:** Alat orkestrasi untuk menjalankan ekosistem multi-container (Next.js Web + PostgreSQL Database + Nginx Proxy) secara sinkron dengan satu perintah `docker compose up -d`.
+
+---
+
+## 6. GraphQL & Real-time API Stack (Fase Bonus 2)
+
+Di Hari ke-34 hingga 36, kita mengimplementasikan arsitektur API alternatif yang sangat efisien untuk data bersarang (*nested data*):
+
+### GraphQL Yoga / Apollo Server
+* **Mengapa GraphQL Yoga?** Server GraphQL modern berbasis standar web Fetch API yang sangat ringan dan mulus berjalan di dalam Next.js Route Handler (`app/api/graphql/route.ts`).
+* **Fitur Kunci:** Mencegah *over-fetching* dan *under-fetching* pada antarmuka kasir yang rumit, memberikan GraphiQL Studio interaktif untuk pengujian eksplorasi data, dan mendukung mutasi atomic yang terhubung dengan Drizzle ORM.
+
+### Urql GraphQL Client
+* **Mengapa Urql?** Library GraphQL client super ringan untuk React dan Next.js yang menyediakan hooks deklaratif (`useQuery`, `useMutation`) serta manajemen cache yang cerdas.

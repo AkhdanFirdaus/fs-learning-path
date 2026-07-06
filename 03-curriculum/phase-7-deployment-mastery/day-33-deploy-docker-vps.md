@@ -1,7 +1,7 @@
 # 📅 Hari 33 — Deployment ke VPS Menggunakan Docker (Masterclass Containerization)
 **Fase Tambahan: Production Deployment Mastery**
 
-[← Hari 32](./day-32-deploy-manual-vps.md) | [📑 Daftar Silabus](../../README.md) | [🎓 Standar Kelulusan](../../01-overview/target-and-graduation-standards.md)
+[← Hari 32](./day-32-deploy-manual-vps.md) | [📑 Daftar Silabus](../../README.md) | [Lanjut ke Bonus: Hari 34 (GraphQL Setup) →](../phase-8-graphql-mastery/day-34-graphql-setup-query.md)
 
 ---
 
@@ -270,4 +270,4 @@ Dengan menyelesaikan tantangan tambahan di Hari 31, 32, dan 33 ini, Anda telah m
 
 ---
 
-[← Hari 32](./day-32-deploy-manual-vps.md) | [📑 Daftar Silabus](../../README.md) | [🎓 Standar Kelulusan](../../01-overview/target-and-graduation-standards.md)
+[← Hari 32](./day-32-deploy-manual-vps.md) | [📑 Daftar Silabus](../../README.md) | [Lanjut ke Bonus: Hari 34 (GraphQL Setup) →](../phase-8-graphql-mastery/day-34-graphql-setup-query.md)

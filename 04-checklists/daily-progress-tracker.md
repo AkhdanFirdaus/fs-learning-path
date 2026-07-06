@@ -1,6 +1,6 @@
 # 📊 Dashboard Progres Belajar 30 Hari & Bonus Mastery (Mini POS Full-Stack)
 
-Gunakan file ini sebagai dashboard utama untuk memantau perjalanan belajar Anda dari Hari ke-1 hingga Hari ke-30, serta materi tambahan di Hari ke-31 hingga ke-33. Centang kotak (`- [x]`) setiap kali Anda menyelesaikan target harian!
+Gunakan file ini sebagai dashboard utama untuk memantau perjalanan belajar Anda dari Hari ke-1 hingga Hari ke-30, serta materi tambahan di Hari ke-31 hingga ke-36. Centang kotak (`- [x]`) setiap kali Anda menyelesaikan target harian!
 
 ---
 
@@ -70,9 +70,18 @@ Fokus: Pengujian sistem, penambalan celah keamanan, optimasi performa, dan pembu
 
 ---
 
-## 🌟 Fase Tambahan (Bonus Mastery) — Production Deployment Mastery
+## 🌟 Fase Tambahan 1 (Bonus Mastery) — Production Deployment Mastery
 Fokus: Pilihan materi tambahan setelah Hari ke-30 untuk merilis aplikasi ke cloud menggunakan 3 metode industri.
 - [ ] **Hari 31:** [Deployment ke Vercel (PaaS / Serverless)](../03-curriculum/phase-7-deployment-mastery/day-31-deploy-vercel.md)
 - [ ] **Hari 32:** [Deployment Manual ke VPS (Ubuntu, Nginx, PM2 & SSL)](../03-curriculum/phase-7-deployment-mastery/day-32-deploy-manual-vps.md)
 - [ ] **Hari 33:** [Deployment ke VPS Menggunakan Docker (Masterclass Containerization)](../03-curriculum/phase-7-deployment-mastery/day-33-deploy-docker-vps.md)
-👉 *[Lihat Checklist Granular Fase Bonus (Hari 31–33)](phase-7-checklist.md)*
+👉 *[Lihat Checklist Granular Fase Bonus 1 (Hari 31–33)](phase-7-checklist.md)*
+
+---
+
+## ⚡ Fase Tambahan 2 (Bonus Mastery) — GraphQL & Real-time API Mastery
+Fokus: Pilihan materi tambahan setelah Hari ke-33 untuk menguasai arsitektur GraphQL Query, Mutation, dan Real-time Subscription di studi kasus POS.
+- [ ] **Hari 34:** [Fundamental GraphQL, Setup Apollo/Yoga di Next.js & Query Katalog](../03-curriculum/phase-8-graphql-mastery/day-34-graphql-setup-query.md)
+- [ ] **Hari 35:** [Mutasi GraphQL & Integrasi Transaksi Atomic POS](../03-curriculum/phase-8-graphql-mastery/day-35-graphql-mutation-checkout.md)
+- [ ] **Hari 36:** [GraphQL Client (Urql/Apollo) & Real-time Subscriptions di POS](../03-curriculum/phase-8-graphql-mastery/day-36-graphql-client-subscription.md)
+👉 *[Lihat Checklist Granular Fase Bonus 2 (Hari 34–36)](phase-8-checklist.md)*

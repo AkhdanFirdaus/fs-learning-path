@@ -1,6 +1,6 @@
 # 📚 Referensi Eksternal & Materi Pendukung Belajar
 
-Dokumen ini berisi kumpulan dokumentasi resmi, panduan interaktif, artikel praktik terbaik, dan tutorial yang disarankan untuk mendampingi pembelajaran Anda selama 30 hari.
+Dokumen ini berisi kumpulan dokumentasi resmi, panduan interaktif, artikel praktik terbaik, dan tutorial yang disarankan untuk mendampingi pembelajaran Anda selama 30 hari + Fase Bonus Mastery.
 
 ---
 
@@ -58,7 +58,7 @@ Dokumen ini berisi kumpulan dokumentasi resmi, panduan interaktif, artikel prakt
 
 ---
 
-## 8. Deployment, Docker & DevOps Mastery
+## 8. Deployment, Docker & DevOps Mastery (Fase Bonus 1)
 * **Vercel Next.js Deployment Guide:** [https://vercel.com/docs/frameworks/nextjs](https://vercel.com/docs/frameworks/nextjs)
 * **Docker Official Overview (What is a Container?):** [https://www.docker.com/resources/what-container/](https://www.docker.com/resources/what-container/)
 * **Docker Docs (Dockerfile Best Practices):** [https://docs.docker.com/develop/develop-images/dockerfile_best-practices/](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
@@ -67,3 +67,12 @@ Dokumen ini berisi kumpulan dokumentasi resmi, panduan interaktif, artikel prakt
 * **PM2 Process Manager for Node.js:** [https://pm2.keymetrics.io/docs/usage/quick-start/](https://pm2.keymetrics.io/docs/usage/quick-start/)
 * **Nginx Reverse Proxy Guide:** [https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
 * **Certbot / Let's Encrypt SSL Guide:** [https://certbot.eff.org/](https://certbot.eff.org/)
+
+---
+
+## 9. GraphQL & Real-time API References (Fase Bonus 2)
+* **Official GraphQL Introduction & Specification:** [https://graphql.org/learn/](https://graphql.org/learn/)
+* **GraphQL Yoga Documentation (Next.js Integration):** [https://the-guild.dev/graphql/yoga-server/docs/integrations/integration-with-nextjs](https://the-guild.dev/graphql/yoga-server/docs/integrations/integration-with-nextjs)
+* **Urql GraphQL Client (Next.js / React Guide):** [https://formidable.com/open-source/urql/docs/api/next/](https://formidable.com/open-source/urql/docs/api/next/)
+* **Apollo GraphQL Tutorial:** [https://www.apollographql.com/tutorials](https://www.apollographql.com/tutorials)
+* **How GraphQL Solves N+1 Overfetching problem:** [https://graphql.org/learn/thinking-in-graphs/](https://graphql.org/learn/thinking-in-graphs/)

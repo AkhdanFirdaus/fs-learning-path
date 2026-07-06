@@ -1,6 +1,6 @@
-# 📋 Checklist Fase Tambahan: Production Deployment Mastery (Hari 31–33)
+# 📋 Checklist Fase Tambahan 1: Production Deployment Mastery (Hari 31–33)
 
-[← Kembali ke Checklist Fase 6](phase-6-checklist.md) | [← Dashboard Progres](daily-progress-tracker.md) | [📑 Daftar Silabus](../README.md)
+[← Kembali ke Checklist Fase 6](phase-6-checklist.md) | [← Dashboard Progres](daily-progress-tracker.md) | [Lanjut ke Checklist Bonus 2 (GraphQL) →](phase-8-checklist.md)
 
 ---
 
@@ -29,4 +29,4 @@
 - [ ] Jalankan sistem dengan perintah `docker compose up -d --build` dan eksekusi migrasi Drizzle di dalam kontainer!
 
 ---
-[← Kembali ke Dashboard Progres](daily-progress-tracker.md)
+[← Kembali ke Dashboard Progres](daily-progress-tracker.md) | [Lanjut ke Checklist Bonus 2 (GraphQL) →](phase-8-checklist.md)
