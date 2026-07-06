@@ -28,7 +28,6 @@ Sebelum merilis aplikasi ke publik, lakukan pemeriksaan dan pembersihan menyelur
 
 Sebuah proyek portofolio tidak lengkap tanpa dokumen `README.md` yang impresif di root repository GitHub Anda. Gunakan struktur template berikut untuk dokumentasi proyek akhir Anda:
 
-```markdown
 # 🛒 Mini POS — Full-Stack Point of Sales Application
 
 Mini POS adalah aplikasi sistem kasir cloud web modern yang dirancang untuk toko ritel kecil, dikembangkan menggunakan stack teknologi terkini dengan fokus pada integritas data, transaksi atomic, dan performa tinggi.
@@ -85,7 +84,6 @@ Mini POS adalah aplikasi sistem kasir cloud web modern yang dirancang untuk toko
 ## 🏛️ Architecture & Database Design
 Aplikasi ini menerapkan separation of concerns dengan lapisan UI, Server Actions, Service Layer, Repository Layer, dan Drizzle ORM.
 *(Lihat dokumentasi lengkap di folder `/02-study-case-minipos/`)*
-```
 
 ---
 
