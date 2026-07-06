@@ -18,10 +18,6 @@
 
 ### README
 
-```md
-
----
-
 ## 📋 Checklist Target Hari Ini
 
 - [ ] Memahami seluruh materi teori dan konsep pada **Hari 30: Refactoring, Dokumentasi, dan Deployment**
