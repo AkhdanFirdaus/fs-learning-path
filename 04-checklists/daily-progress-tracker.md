@@ -1,6 +1,6 @@
-# 📊 Dashboard Progres Belajar 30 Hari (Mini POS Full-Stack)
+# 📊 Dashboard Progres Belajar 30 Hari & Bonus Mastery (Mini POS Full-Stack)
 
-Gunakan file ini sebagai dashboard utama untuk memantau perjalanan belajar Anda dari Hari ke-1 hingga Hari ke-30. Centang kotak (`- [x]`) setiap kali Anda menyelesaikan target harian!
+Gunakan file ini sebagai dashboard utama untuk memantau perjalanan belajar Anda dari Hari ke-1 hingga Hari ke-30, serta materi tambahan di Hari ke-31 hingga ke-33. Centang kotak (`- [x]`) setiap kali Anda menyelesaikan target harian!
 
 ---
 
@@ -62,11 +62,17 @@ Fokus: Menyatukan UI, Server Actions, dan PostgreSQL. Menerapkan transaksi datab
 
 ---
 
-## 🏆 Fase 6 — Penyelesaian, Security Review & Deployment Mastery
-Fokus: Pengujian sistem, penambalan celah keamanan, optimasi performa, dokumentasi README, dan live deployment melalui 3 metode standar industri.
+## 🏆 Fase 6 — Penyelesaian & Refactoring Final
+Fokus: Pengujian sistem, penambalan celah keamanan, optimasi performa, dan pembuatan dokumentasi README.md.
 - [ ] **Hari 29:** [Testing dan Security Review (Validasi Berlapis & Error Handling)](../03-curriculum/phase-6-finalization/day-29-testing-security.md)
-- [ ] **Hari 30:** [Refactoring Final, Dokumentasi README, dan Deployment Mastery](../03-curriculum/phase-6-finalization/day-30-refactoring-deploy.md)
-  - [ ] **Langkah 1:** [Deploy ke Vercel (PaaS / Serverless)](../03-curriculum/phase-6-finalization/deploy-step-1-vercel.md)
-  - [ ] **Langkah 2:** [Deploy Manual ke VPS (Ubuntu, Nginx, PM2 & SSL)](../03-curriculum/phase-6-finalization/deploy-step-2-manual-vps.md)
-  - [ ] **Langkah 3:** [Deploy ke VPS dengan Docker (Masterclass Containerization)](../03-curriculum/phase-6-finalization/deploy-step-3-docker-vps.md)
+- [ ] **Hari 30:** [Refactoring Final dan Dokumentasi README](../03-curriculum/phase-6-finalization/day-30-refactoring-deploy.md)
 👉 *[Lihat Checklist Granular Fase 6](phase-6-checklist.md)*
+
+---
+
+## 🌟 Fase Tambahan (Bonus Mastery) — Production Deployment Mastery
+Fokus: Pilihan materi tambahan setelah Hari ke-30 untuk merilis aplikasi ke cloud menggunakan 3 metode industri.
+- [ ] **Hari 31:** [Deployment ke Vercel (PaaS / Serverless)](../03-curriculum/phase-7-deployment-mastery/day-31-deploy-vercel.md)
+- [ ] **Hari 32:** [Deployment Manual ke VPS (Ubuntu, Nginx, PM2 & SSL)](../03-curriculum/phase-7-deployment-mastery/day-32-deploy-manual-vps.md)
+- [ ] **Hari 33:** [Deployment ke VPS Menggunakan Docker (Masterclass Containerization)](../03-curriculum/phase-7-deployment-mastery/day-33-deploy-docker-vps.md)
+👉 *[Lihat Checklist Granular Fase Bonus (Hari 31–33)](phase-7-checklist.md)*

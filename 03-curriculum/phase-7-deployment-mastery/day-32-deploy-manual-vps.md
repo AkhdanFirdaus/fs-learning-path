@@ -1,6 +1,12 @@
-# 🖥️ Langkah 2: Deploy Manual ke VPS (Ubuntu, Nginx, PM2 & SSL)
+# 📅 Hari 32 — Deployment Manual ke VPS (Ubuntu, Nginx, PM2 & SSL)
+**Fase Tambahan: Production Deployment Mastery**
 
-Mengelola *Virtual Private Server* (VPS) sendiri memberikan Anda kontrol penuh atas arsitektur sistem, efisiensi biaya untuk lalu lintas tinggi, serta pemahaman mendalam tentang bagaimana sebuah server web bekerja di bawah kap mesin (*under-the-hood*).
+[← Hari 31](./day-31-deploy-vercel.md) | [📑 Daftar Silabus](../../README.md) | [Hari 33 →](./day-33-deploy-docker-vps.md)
+
+---
+
+## 🎯 Tujuan Hari Ini
+Pada hari ke-32 ini, Anda akan mempraktikkan metode deployment manual langsung ke dalam **Virtual Private Server (VPS)** berbasis Linux (Ubuntu). Mengelola VPS sendiri memberikan Anda kontrol penuh atas arsitektur server, pemahaman mendalam tentang *system administration*, serta efisiensi biaya untuk aplikasi berskala menengah hingga tinggi.
 
 ---
 
@@ -183,9 +189,14 @@ Ikuti instruksi di layar (pilih opsi redirect HTTP ke HTTPS). Sertifikat akan di
 
 ---
 
-## 🏁 Hasil Akhir
-Aplikasi Mini POS kini berjalan dengan performa maksimal di VPS Anda, dilindungi HTTPS, dikelola oleh PM2, dan menggunakan reverse proxy Nginx yang profesional!
+## 📋 Checklist Target Hari Ini
+- [ ] Melakukan provisioning server Linux Ubuntu dan mengaktifkan firewall UFW (Port 22, 80, 443)
+- [ ] Berhasil menginstal Node.js v20+ LTS via NVM dan Git di dalam VPS
+- [ ] Berhasil melakukan clone repository, konfigurasi `.env.production`, dan build aplikasi (`npm run build`)
+- [ ] Berhasil menginstal **PM2** dan menjalankan proses Next.js secara *daemon* 24/7 (lengkap dengan `pm2 startup`)
+- [ ] Berhasil menginstal dan mengonfigurasi **Nginx** sebagai *reverse proxy* yang memforward trafik ke port 3000
+- [ ] Berhasil menginstal dan mengaktifkan sertifikat HTTPS gratis menggunakan **Certbot (Let's Encrypt)**
 
 ---
 
-[← Kembali ke Langkah 1: Vercel](./deploy-step-1-vercel.md) | [📑 Daftar Silabus](../../README.md) | [Lanjut ke Langkah 3: Deploy Docker VPS →](./deploy-step-3-docker-vps.md)
+[← Hari 31](./day-31-deploy-vercel.md) | [📑 Daftar Silabus](../../README.md) | [Hari 33 →](./day-33-deploy-docker-vps.md)

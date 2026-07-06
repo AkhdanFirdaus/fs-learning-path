@@ -1,10 +1,16 @@
-# 🚀 Langkah 1: Deployment ke Vercel (PaaS / Serverless)
+# 📅 Hari 31 — Deployment ke Vercel (PaaS / Serverless)
+**Fase Tambahan: Production Deployment Mastery**
 
-**Vercel** adalah platform pencipta Next.js dan merupakan standar industri untuk deployment aplikasi Next.js secara *serverless* dan *zero-configuration*.
+[← Hari 30](../phase-6-finalization/day-30-refactoring-deploy.md) | [📑 Daftar Silabus](../../README.md) | [Hari 32 →](./day-32-deploy-manual-vps.md)
 
 ---
 
-## 🎯 Mengapa Deploy ke Vercel?
+## 🎯 Tujuan Hari Ini
+Selamat memasuki **Fase Tambahan (Bonus Mastery)**! Setelah program intensif 30 hari selesai, hari ke-31 ini didedikasikan untuk mempelajari cara merilis aplikasi Mini POS ke cloud production menggunakan **Vercel**—platform pencipta Next.js dan standar industri untuk deployment *serverless* tanpa konfigurasi rumit (*zero-config CI/CD*).
+
+---
+
+## 🌟 Mengapa Deploy ke Vercel?
 1. **Zero-Config CI/CD:** Setiap kali Anda melakukan *push* ke branch `main` di GitHub, Vercel secara otomatis membangun (*build*) dan merilis aplikasi Anda dalam hitungan detik.
 2. **Global Edge Network:** Konten statis (HTML, CSS, JS, Image) didistribusikan ke CDN global, sementara Server Components dan Route Handlers dijalankan sebagai Serverless Functions yang skalabel.
 3. **Preview Deployments:** Setiap Pull Request (PR) mendapatkan URL live tersendiri untuk pengujian sebelum digabungkan ke production.
@@ -69,4 +75,13 @@ Pada halaman *Configure Project*, buka dropdown **Environment Variables** dan ma
 
 ---
 
-[← Kembali ke Hari 30](./day-30-refactoring-deploy.md) | [📑 Daftar Silabus](../../README.md) | [Lanjut ke Langkah 2: Deploy Manual VPS →](./deploy-step-2-manual-vps.md)
+## 📋 Checklist Target Hari Ini
+- [ ] Memahami konsep deployment serverless dan arsitektur PaaS Vercel
+- [ ] Berhasil menyiapkan database PostgreSQL di cloud (Neon / Supabase) dengan koneksi SSL (`?sslmode=require`)
+- [ ] Berhasil menjalankan migrasi Drizzle dan seeder admin ke database cloud
+- [ ] Berhasil meng-import repository GitHub ke Vercel dan mengatur *Environment Variables*
+- [ ] Melakukan verifikasi transaksi kasir di URL live production Vercel!
+
+---
+
+[← Hari 30](../phase-6-finalization/day-30-refactoring-deploy.md) | [📑 Daftar Silabus](../../README.md) | [Hari 32 →](./day-32-deploy-manual-vps.md)

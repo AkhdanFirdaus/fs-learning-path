@@ -1,6 +1,12 @@
-# 🐳 Langkah 3: Deploy ke VPS Menggunakan Docker (Masterclass Containerization)
+# 📅 Hari 33 — Deployment ke VPS Menggunakan Docker (Masterclass Containerization)
+**Fase Tambahan: Production Deployment Mastery**
 
-Mengemas aplikasi ke dalam **Docker Container** adalah standar modern dalam *software engineering*. Dengan Docker, seluruh aplikasi beserta dependensi sistem operasinya dibungkus menjadi satu kesatuan yang terisolasi dan identik di segala mesin.
+[← Hari 32](./day-32-deploy-manual-vps.md) | [📑 Daftar Silabus](../../README.md) | [🎓 Standar Kelulusan](../../01-overview/target-and-graduation-standards.md)
+
+---
+
+## 🎯 Tujuan Hari Ini
+Pada hari penutup **Fase Tambahan (Bonus Mastery)** ini, Anda akan mempelajari standar modern *software engineering*: mengemas aplikasi ke dalam **Docker Container**. Dengan Docker, seluruh aplikasi beserta dependensi sistem operasinya dibungkus menjadi satu kesatuan yang terisolasi dan identik di segala mesin—menghilangkan kutukan *"It works on my machine"*.
 
 ---
 
@@ -167,7 +173,7 @@ services:
     networks:
       - minipos-net
 
-  # 3. Nginx Reverse Proxy Container (Opsional jika ingin Nginx dalam kontainer)
+  # 3. Nginx Reverse Proxy Container
   nginx:
     image: nginx:alpine
     container_name: minipos-nginx
@@ -248,9 +254,20 @@ server {
 
 ---
 
-## 🏆 Selamat! Anda Telah Menguasai 3 Metode Deployment!
-Dengan menguasai Vercel (PaaS), Manual VPS (PM2/Nginx), dan Docker Containerization, Anda kini memiliki keahlian *DevOps & Deployment* yang sangat dicari di industri rekayasa perangkat lunak modern.
+## 📋 Checklist Target Hari Ini
+- [ ] Memahami konsep fundamental Docker: perbedaan Container vs Virtual Machine (VM) dan keunggulan isolasi
+- [ ] Memahami konsep **Multi-Stage Build** pada Dockerfile untuk memangkas image Next.js dari >1.5GB menjadi ~100MB
+- [ ] Berhasil menginstal Docker Engine dan Docker Compose di server VPS Ubuntu
+- [ ] Berhasil mengaktifkan mode `output: 'standalone'` pada file `next.config.ts`
+- [ ] Berhasil membuat `Dockerfile` produksi 4-stage (`base`, `deps`, `builder`, `runner`) dengan user non-root (`nextjs`)
+- [ ] Berhasil membuat `docker-compose.yml` untuk mengatur kontainer `web` (Next.js), `postgres` (DB persistent), dan `nginx`
+- [ ] Berhasil menjalankan sistem dengan perintah `docker compose up -d --build` dan mengeksekusi migrasi Drizzle di dalam kontainer!
 
 ---
 
-[← Kembali ke Langkah 2: Manual VPS](./deploy-step-2-manual-vps.md) | [📑 Daftar Silabus](../../README.md) | [🎓 Kembali ke Standar Kelulusan](../../01-overview/target-and-graduation-standards.md)
+## 🏆 Selamat Atas Penguasaan Deployment Mastery!
+Dengan menyelesaikan tantangan tambahan di Hari 31, 32, dan 33 ini, Anda telah menguasai seluruh aspek ekosistem rekayasa perangkat lunak modern: dari pemrograman UI, arsitektur backend, desain database relasional, hingga **DevOps & Cloud Deployment**. Anda siap terjun ke industri sebagai Full-Stack Developer yang utuh! 🎓🚀
+
+---
+
+[← Hari 32](./day-32-deploy-manual-vps.md) | [📑 Daftar Silabus](../../README.md) | [🎓 Standar Kelulusan](../../01-overview/target-and-graduation-standards.md)
